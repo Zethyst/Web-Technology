@@ -4,7 +4,7 @@
 <img src="https://forthebadge.com/images/badges/validated-html5.svg">
 <img src="https://forthebadge.com/images/badges/uses-css.svg">
 
-<h3>📌 Screenshots</h3><hr>
-<div><img src="ss.png"></div>
 
 </div>
+<h2>📌 Screenshots</h2><hr>
+<div><img src="ss.png"></div>
