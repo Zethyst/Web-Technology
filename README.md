@@ -7,4 +7,4 @@
 
 </div>
 <h2>📌 Screenshots</h2>
-<div><img src="ss.png"></div>
+<div><img src="ss.png" width="600px" height="auto"></div>
