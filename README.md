@@ -6,5 +6,5 @@
 
 
 </div>
-<h2>📌 Screenshots</h2><hr>
+<h2>📌 Screenshots</h2>
 <div><img src="ss.png"></div>
