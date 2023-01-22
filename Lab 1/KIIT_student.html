@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central Library</title>
+</head>
+<style>
+    .box1{
+        background-color: green;
+        border: 3px solid black;
+        border-radius: 9px;
+        color: white;
+        font-size: 27px;
+        padding: 3px;
+    }
+</style>
+<body>
+    <header>
+        <h1 align="center" style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">KIIT Central Library</h1>
+        <div class="box1"> <marquee <!--bgcolor=#54B435-->Student Registration Form </marquee> </div>
+    <br>
+    </header>
+    <main>
+        <form>
+        <fieldset>
+            <legend align="center"><b>Student Details</b></legend><br>
+            <label for="FName">
+                <b>First Name:</b> <input type="text" id="FName">
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="MName">
+               <b> Middle Name:</b> <input type="text" id="MName">
+            </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="LName">
+                <b>Last Name:</b> <input type="text" id="LName">
+            </label><br><br>
+            <label for="Email">
+                <b>Email Address:</b> <input type="email" id="Email">
+            </label><br><br>
+            <label for="PWD">
+                <b>Password: </b><input type="password" id="PWD">
+            </label><br><br>
+            <label for="PWDConfirm">
+                <b>Enter Your Password Again: </b><input type="password" id="PWDConfirm">
+            </label><br><br>
+            <b>Gender:</b>
+            <label for="Gender1">
+                <input type="radio" name="Gender" id="Gender1">Male
+            </label> 
+            <label for="Gender2">
+                <input type="radio" name="Gender" id="Gender2">Female
+            </label> 
+            <label for="Gender3">
+                <input type="radio" name="Gender" id="Gender3">Others
+            </label> <br><br>
+            <i>Enter Your Correspondence Address:</i><br> 
+            <label for="Address">
+                <textarea name="add" id="Address" cols="30" rows="5" placeholder="Type here..."></textarea>
+            </label><br><br>
+            <i>Enter Your Permanent Address:</i><br> 
+            <label for="Address">
+                <textarea name="add" id="Address" cols="30" rows="5" placeholder="Type here..."></textarea>
+            </label><br><br>
+
+            <label for="State">
+                <select name="StateName" id="Sta">
+                    <option>Select your State</option>
+                    <option>Odisha</option>
+                    <option>West Bengal</option>
+                    <option>Jharkhand</option>
+                    <option>Bihar</option>
+                    <option>Uttar Pradesh</option>
+                    <option>Andhra Pradesh</option>
+                    <option>Telangana</option>
+                  </select>
+            </label><br><br>
+            <label for="submitting">
+                <input type="submit" value="Sign Up">
+            </label>
+
+            
+        </fieldset>
+    </main>
+</form>
+</body>
+</html>
